@@ -1,0 +1,18 @@
+stoneyans - stoney's Ansible configuration files
+
+This folder contains the following ansible playbooks:
+
+- stoneysrv.yml: stoney's server build
+- stoneydev.yml: stoney's dev environment build
+- stoneywin10.yml: stoney's windows 10 general use build
+
+The stoneysrv.yml file contains an Ansible playbook to do the following:
+
+- Apache 2
+- PHP7
+- MySQL 8
+- CakePHP 3
+
+So far no complete Ansible playbook has been created. I currently have finished:
+
+- stoneysrv.yml: install Apache 2
