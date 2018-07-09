@@ -1,0 +1,1 @@
+ansible-playbook stoneysrv.yml -i hosts --user=stoney --ask-become-pass
